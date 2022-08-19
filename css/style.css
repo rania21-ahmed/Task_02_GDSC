@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    width:85%;
+    margin:auto;
+}
+/***********Start Header**************/
+.header{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+/* Start navebar*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top:0.5%;
+}
+.nav .logo{
+    margin:0 0 0 5% 
+}
+.nav .logo img{
+    height:50px ;
+
+}
+.list{
+    text-align: center;
+    margin:0 10% 0 0
+}
+.list ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding:10px 20px;
+
+}
+.list ul li a{
+    text-decoration: none;
+    color:#888;
+    transition:color 1s;
+    font-size: 1.5rem;
+}
+.list ul li a:hover{
+    padding:10px 20px;
+    color: #fff;
+}
+/**********End Navbar**************/
+/*Start Header*/
+.header_text{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+   
+}
+.header_text .text1{
+    width: 40%;
+}
+.header_text .imge1{
+    width: 50%;
+}
+.header_text .imge1 img{
+    width: 100%;
+}
+.header_text .text1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.header_text .text1 h1{
+    color:#fff;
+    font-size:3rem;
+    letter-spacing: 3px;
+}
+.header_text .text1 h3{
+    color:palevioletred;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    margin-top:1.5rem
+
+}
+.header_text .text1 p{
+    color: #fff;
+   letter-spacing: 1.5px;
+   margin:2rem 0;
+   line-height: 1.5rem;
+
+}
+.header_text .btn1{
+    font-size: 17px;
+    background-color: transparent;
+    border: #eb699e solid 2px;
+    text-decoration: none;
+    color:#eb699e;
+    transition: background-color 1s;
+    padding:1rem 2rem
+}
+.header_text .btn1:hover{
+    background-color: #fff;
+}
+/********************End Header***************************/
+/**********start feature**********/
+.Feature{
+    text-align:center;
+    padding:4%;
+
+}
+.Feature h2{
+    font-size: 3rem;
+    color:#222;
+}
+.Feature p{
+    color:palevioletred
+}
+.Feature .icon{
+    display: flex;
+    justify-content: center;
+    margin:2rem 0;
+    
+}
+.Feature .icon .icon1{
+    margin:2%;
+    padding:7% 5%;
+    box-shadow: #ddd 0px 0px 10px 0px;
+    border-radius: 5%;
+    box-shadow: #888;
+}
+.Feature .icon .icon1 img{
+    margin-bottom:10px
+}
+.Feature .btn2{
+    font-size: 17px;
+    background-color: transparent;
+    border: #eb699e solid 2px;
+    text-decoration: none;
+    color:#eb699e;
+    transition: background-color 1s;
+    transition: color 1s;
+    padding:1rem 2rem
+
+}
+.Feature .btn2:hover{
+    background-color: #000;
+    color:#fff
+}
+/*Section 2*/
+.container2{
+    width: 75%;
+    margin: auto;
+}
+.discount{
+    text-align: center;
+    background-image: url(../images/disco.jpg);
+    background-size: cover;
+    height: 95vh;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.discount h2{
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+}
+.discount p{
+    font-size: 1.3rem;
+    margin:3rem;
+}
+.discount .btn3{
+    font-size: 17px;
+    background-color: transparent;
+    border: #eb699e solid 2px;
+    text-decoration: none;
+    color:#eb699e;
+    transition: background-color 1s;
+    padding:1rem 2rem
+
+}
+.discount .btn3:hover{
+    background-color: #fff;
+}
+/*Start login*/
+.login{
+    text-align: center;
+    padding:50px 0
+}
+.login h2{
+    font-size: 2.5rem;
+}
+.login p{
+   color:#555;
+    padding:20px 0 50px;
+    letter-spacing: 2px;
+}
+.log-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.log-form{
+    background-color: #eb699e;
+    width: 25%;
+    border-radius: 5%;
+    
+}
+.test-log{
+    
+    margin:40px;
+}
+input{
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top:20px;
+    background-color: transparent;
+    border: #f6c2d7 solid 1px;
+}
+textarea{
+    border-radius: 10px;
+    margin-top:20px;
+    background-color: transparent;
+    border: #f6c2d7 solid 1px;
+}
+.btn{
+    padding:1rem 3rem;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    margin-top:20px;
+    background-color: transparent;
+    background-color: #efb68d;
+    border:none ;
+    transition:background-color 10s;
+    transition:color 2s;
+}
+.btn:hover{
+    background-color:#000;
+    color: #fff;
+}
+.imge{
+
+    width: 75%;
+}
+
+.imge img{
+    width: 95%;
+    
+}
+
+/********************************/
+.peaple{
+    background-image: url(../images/cli.jpg);
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.peaple h2{
+    color:#fff;
+    padding:30px 0 ;
+    font-size: 3rem;
+}
+.peaple .test{
+    color:#fff;
+    font-size: 1.5rem;
+}
+.peaple .cont{
+    width: 60%;
+    margin:3% auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+.peaple .cont h3{
+    padding:10px 0;
+    font-size: 1.8rem;
+}
+.peaple .cont p{
+    line-height: 1.5rem;
+    word-spacing: 2px;
+    padding:0 10px 15px;
+}
+/**********Start Free***********/
+.free{
+    background-color: #222;
+    color:#fff;
+    text-align: center;
+    padding: 5% 0;
+    margin-top: 5%;
+}
+.container3{
+    width: 60%;
+    margin: auto;
+}
+.free h2{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.free p{
+   font-size: 1.2rem;
+   
+}
+.free .hh1{
+    color: rgb(114, 114, 167);
+}
+
+.enter form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+}
+.enter form input{
+    width: 70%;
+    border: inherit;
+    padding: 0px 19px;
+    height: 49px;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 35px;
+    overflow: visible;
+    border:none;
+}
+.enter form button{
+    width: 30%;
+    font-size: 17px;
+    transition: ease-in all 0.5s;
+    background-color: #efb68d;
+    color: #fff;
+    padding: 5px 0px;
+    max-width: 192px;
+    width: 100%;
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 35px;
+    border: #fff solid 4px;
+    margin-left: -40px;
+    margin-bottom: -20px;
+    height: 49px;
+
+}
+/**Stert footer*/
+footer{
+    background-color: #222;
+    text-align:center;
+    color:#fff;
+    padding: 2rem;
+    font-size: 1.5rem;
+    border-top:1px solid #666 ;
+}
+footer a{
+    text-decoration: none;
+    color:#fff
+
+}
+footer a:hover{
+    color: rgb(252, 135, 226);
+
+}
